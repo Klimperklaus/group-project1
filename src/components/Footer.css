@@ -19,8 +19,9 @@
   width: 100vw;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 10rem;
 }
 
 .text {
