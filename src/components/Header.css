@@ -17,8 +17,6 @@
 
 .header{
     background-color: #413023;
-    color: goldenrod;
-    
     padding: 20px;
     text-align: center;
     font-size: 24px;
@@ -28,17 +26,19 @@
     transform: rotate(5deg);
 }
 
+.header h1 .ring {
+    font-family: theOneRing;
+   color: initial;
+} 
+
 
 .header h1 {
     font-family: ringBearer;
     margin: 0;
-    font-weight: bold;
-    text-transform: uppercase;
+    color: goldenrod;
+    /* font-weight: bold;
+    text-transform: uppercase; */
 }
-
-.header h1 .ring {
-    font-family: theOneRing;
-} 
 
 .header nav ul {
     font-family: middleEarth;
