@@ -3,7 +3,7 @@ import "./Header.css"
 function Header() {
     return (
     <header className="header">
-        <h1>Lord of the Rings</h1>
+        <h1><span className="ring">d</span>Lord of the Rings<span className="ring">m</span></h1>
         <nav>
             <ul>
                 <li><a href="#">Lore</a></li>
