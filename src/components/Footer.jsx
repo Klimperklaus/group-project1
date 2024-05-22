@@ -10,7 +10,7 @@ export default function Footer() {
         <li>
           <img
             src={returnCharacter()}
-            alt="gandalf image"
+            alt="character image"
             width={128}
             height={128}
           />
