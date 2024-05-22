@@ -1,5 +1,5 @@
 import "./Footer.css";
-import gandalf from "../assets/gandalf.png";
+import returnCharacter from "./getCharacter";
 
 export default function Footer() {
   return (
@@ -8,7 +8,12 @@ export default function Footer() {
         <li className="text">GREETINGS</li>
         <li className="text">FROM</li>
         <li>
-          <img src={gandalf} alt="gandalf image" width={128} height={128} />
+          <img
+            src={returnCharacter()}
+            alt="gandalf image"
+            width={128}
+            height={128}
+          />
         </li>
       </ul>
     </div>
