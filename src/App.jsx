@@ -1,12 +1,12 @@
 import "./App.css";
+import Body from "./components/Body.jsx";
 
 function App() {
-  return;
-  <>
-    {/** Head */}
-    {/** Body */}
-    {/** Footer */}
-  </>;
+  return (
+    <>
+      <Body/>
+    </>
+  );
 }
 
 export default App;
