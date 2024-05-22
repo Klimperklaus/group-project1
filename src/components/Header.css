@@ -1,67 +1,63 @@
 @font-face {
-    font-family: middleEarth;
-    src: url("../assets/MiddleEarthPersonalUseRegular-axlP5.otf");
+  font-family: middleEarth;
+  src: url("../assets/MiddleEarthPersonalUseRegular-axlP5.otf");
 }
 
 @font-face {
-    font-family: ringBearer;
-    src: url("../assets/RingbearerMedium-51mgZ.ttf");
+  font-family: ringBearer;
+  src: url("../assets/RingbearerMedium-51mgZ.ttf");
 }
 
 @font-face {
-    font-family: theOneRing;
-    src: url("../assets/Theonering-Xq3d.ttf") format("truetype");
+  font-family: theOneRing;
+  src: url("../assets/Theonering-Xq3d.ttf") format("truetype");
 }
 
+.header {
+  background-color: #413023;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
 
-
-.header{
-    background-color: #413023;
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transform: rotate(5deg);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: rotate(5deg);
 }
 
 .header h1 .ring {
-    font-family: theOneRing;
-   color: initial;
-} 
-
+  font-family: theOneRing;
+  color: lightgrey;
+}
 
 .header h1 {
-    font-family: ringBearer;
-    margin: 0;
-    color: goldenrod;
-    /* font-weight: bold;
+  font-family: ringBearer;
+  margin: 0;
+  color: goldenrod;
+  /* font-weight: bold;
     text-transform: uppercase; */
 }
 
 .header nav ul {
-    font-family: middleEarth;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  font-family: middleEarth;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .header nav li {
-    display: inline-block;
-    margin: 0 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .header nav li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: color 0.3s ease;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
 }
 
 .header nav li a:hover {
-    color: goldenrod;
+  color: goldenrod;
 }
-
