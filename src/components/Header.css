@@ -1,6 +1,7 @@
-.header {
-    background-color: #ff00ff;
+.header{
+    background-color: #7c3903;
     color: #ffffff;
+    
     padding: 20px;
     text-align: center;
     font-size: 24px;
@@ -37,5 +38,5 @@
 }
 
 .header nav li a:hover {
-    color: #ffcc00;
+    color: #38fc90;
 }
